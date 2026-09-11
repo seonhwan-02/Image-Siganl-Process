@@ -1,0 +1,26 @@
+# ==========================================
+# Water Fringe Detection Project .gitignore
+# ==========================================
+
+# 1. 대용량 라벨/이미지 데이터셋 (Git 저장소 용량 초과 방지)
+data/
+
+# 2. 모델 가중치 파일 (학습 결과 파일)
+checkpoint/
+
+# 3. 임시 및 데이터 압축 파일
+*.zip
+*.tar.gz
+*.rar
+
+# 4. 파이썬 임시 캐시 및 빌드 결과물
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# 5. OS 및 에디터 임시 파일
+.DS_Store
+.vscode/
+.idea/
+*.swp
